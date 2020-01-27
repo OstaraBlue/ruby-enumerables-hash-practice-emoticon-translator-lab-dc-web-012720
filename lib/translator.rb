@@ -13,6 +13,7 @@ end
 
 def get_japanese_emoticon(file_path, emoticon)
   new_library = load_library(file_path)
+<<<<<<< HEAD
   a = new_library[:get_emoticon][emoticon]
   if !a 
     a = "Sorry, that emoticon was not found"
@@ -27,4 +28,12 @@ def get_english_meaning(file_path, emoticon)
     b = "Sorry, that emoticon was not found"
   end
   b
+=======
+  new_library[]
+  
+end
+
+def get_english_meaning
+  
+>>>>>>> 813220277e6e692d917c4cc94695e968f38c6360
 end
